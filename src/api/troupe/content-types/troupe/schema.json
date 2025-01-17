@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "troupes",
+  "info": {
+    "singularName": "troupe",
+    "pluralName": "troupes",
+    "displayName": "Troupe"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
